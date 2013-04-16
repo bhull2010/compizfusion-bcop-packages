@@ -1,0 +1,51 @@
+compiz-bcop (0.8.8-1) unstable; urgency=low
+
+  * non-maintainer fork
+  * [debian/compat] Bump to Debhelper v7
+  * [debian/control]
+    - rename source package to match upstream name: compiz-bcop
+    - bump Standards-Version to 3.9.3.
+    - wrap Build-Depends for easier-reading/cleaner-diffs
+    - bump debhelper to (>= 7.0.50~)
+    - B-D on hardening-wrapper, to enable it in debian/rules (see below)
+    - add ${shlibs:Depends}, ${misc:Depends} to Depends
+    - change the maintainer's email address
+  * [debian/source/format] convert to '3.0 (quilt)' source format
+  * [debian/rules] use dh style, only use necessary overrides
+    - DEB_BUILD_HARDENING=1, to suppress lintian warnings
+
+ -- Jasmine Hassan <jasmine.aura@gmail.com>  Fri, 12 Oct 2012 04:48:37 +0200
+
+compiz-fusion-bcop (0.8.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sean Finney <seanius@debian.org>  Thu, 04 Feb 2010 18:04:13 +0100
+
+compiz-fusion-bcop (0.8.2-1) unstable; urgency=low
+
+  * New upstream release
+  * add gbp.conf for use with git-buildpackage
+  * lintian fixes:
+    - update Standards-Version to 3.8.1
+    - build binary in binary-indep, not binary-arch
+
+ -- Sean Finney <seanius@debian.org>  Sun, 05 Apr 2009 22:16:11 +0200
+
+compiz-fusion-bcop (0.7.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Sean Finney <seanius@debian.org>  Tue, 03 Jun 2008 00:45:02 +0200
+
+compiz-fusion-bcop (0.7.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Sean Finney <seanius@debian.org>  Mon, 19 May 2008 19:48:56 +0200
+
+compiz-fusion-bcop (0.6.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #431756).
+
+ -- Sean Finney <seanius@debian.org>  Fri, 09 Nov 2007 19:04:28 +0100
