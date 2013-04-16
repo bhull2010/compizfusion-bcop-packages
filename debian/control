@@ -1,13 +1,14 @@
-Source: compiz-bcop
+Source: compizfusion-bcop
 Section: x11
 Priority: extra
-Maintainer: Jasmine Hassan <jasmine.aura@gmail.com>
+Maintainer: Local User <user@localhost>
 Build-Depends: autoconf, automake1.9, debhelper (>= 7.0.50~), intltool, libglib2.0-dev, libxslt1-dev, pkg-config
 Standards-Version: 3.9.3
 
-Package: compiz-fusion-bcop
+Package: compizfusion-bcop
 Architecture: all
 Depends: pkg-config, xsltproc, ${shlibs:Depends}, ${misc:Depends}
+Conflicts: compiz-fusion-bcop, compiz-bcop
 Description: Compiz Fusion option code generator
  Compiz Fusion is the result of the re-unification of the Beryl-project
  and the community around the Compiz Window Manager. It seeks to provide

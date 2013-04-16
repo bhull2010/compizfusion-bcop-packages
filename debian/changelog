@@ -1,3 +1,11 @@
+compizfusion-bcop (0.8.8-2) unstable; urgency=low
+
+  * Rename package to compizfusion-bcop and conflict with compiz-bcop
+    and compiz-fusion-bcop
+  * Use autoreconf
+
+ -- Local User <user@localhost>  Mon, 15 Apr 2013 09:30:00 +0000
+
 compiz-bcop (0.8.8-1) unstable; urgency=low
 
   * non-maintainer fork
