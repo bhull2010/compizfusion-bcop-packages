@@ -5,7 +5,7 @@ AC_INIT([compiz-bcop],esyscmd(. ./VERSION;echo -n $VERSION), [onestone@beryl-pro
 AC_DEFINE_UNQUOTED(VERSION,"$VERSION",[Version])
 
 AM_INIT_AUTOMAKE([1.9 dist-bzip2])
-AC_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_MAINTAINER_MODE
 
 AC_ISC_POSIX
